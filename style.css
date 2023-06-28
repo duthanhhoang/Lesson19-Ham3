@@ -1,0 +1,93 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  #img-border{
+    width: 250px;
+    height: 250px;
+    overflow-y: hidden;
+  }
+
+  #store{
+    width: 65%;
+    float: left;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  #order{
+    width: 35%;
+    float: right;
+    text-align: center;
+    background-color: aliceblue;
+    min-height: 600px;
+  }
+
+  #order-list{
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  #order-list th{
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  #order-list td{
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  #payment{
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .align-right{
+    text-align: right;
+  }
+
+  #payment-bill{
+    width: 35%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+  }
+
+  #payment-bill:hover{
+    color: white;
+    background-color: lightcoral;
+  }

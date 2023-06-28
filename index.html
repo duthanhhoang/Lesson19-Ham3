@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng order cafe tại quầy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="store">
+        <h1 id="title">Align Cafe</h1>
+        <div id="drink-list"></div>
+    </div>
+    <div id="order">
+        <h1 id="order-title">Order</h1>
+        <div>
+            <table id="order-list"></table>
+            <hr>
+            <table id="payment">
+                <td><h2>Tổng tiền:</h2></td>
+                <td><h3 class="align-right"><span id="total">10000</span></h3></td>
+            </table>
+        </div>
+    </div>
+    <div>
+        <button id="payment-bill" onclick="payment()">Thanh toán</button>
+    </div>
+
+    <div>
+        <h2>Tổng doanh thu: <span id="revenue">0</span></h1>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
